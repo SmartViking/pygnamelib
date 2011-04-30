@@ -74,4 +74,3 @@ def getname(background=0,namecolor=(0,0,0),helptext="What is your name?",helptex
         surface.blit(namerequest,(40,120))
         pygame.display.update()
         clock.tick(fps)
-# Background=0, namecolor=(44,44,44), helptext="What is your name?", helptextcolor=(213, 98, 0), maxcharacters=20,fps=20, font=None,surface=0
